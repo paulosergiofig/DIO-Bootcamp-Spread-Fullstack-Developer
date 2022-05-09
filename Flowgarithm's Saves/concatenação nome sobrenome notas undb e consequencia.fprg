@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="arqui"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-29 12:36:09 "/>
+        <attribute name="created" value="YXJxdWk7REVTS1RPUC1TU0U4NTRNOzIwMjItMDQtMjk7IjEyOjE4OjQyICI7Mjc5Ng=="/>
+        <attribute name="edited" value="YXJxdWk7REVTS1RPUC1TU0U4NTRNOzIwMjItMDQtMjk7IjEyOjM2OjA5ICI7MjsyOTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;E o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Qual foi sua nota na P1?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Qual foi sua nota na P2?&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Quanto voc&#234; tirou na AVQUALIS?&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="(nota1+nota2+nota3)/3"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Ol&#225;, &quot; &amp;nome &amp;&quot; &quot; &amp;sobrenome &amp; &quot;, sua m&#233;dia &#233;: &quot; &amp;media &amp; &quot;. Parab&#233;ns! Voc&#234; foi aprovado(a)!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ol&#225;, &quot; &amp;nome &amp;&quot; &quot; &amp;sobrenome &amp; &quot;, sua m&#233;dia &#233;: &quot; &amp;media &amp; &quot;. Infelizmente voc&#234; ficou reprovado(a) e precisar&#225; se esfor&#231;ar um pouco mais no pr&#243;ximo semestre. Mas n&#227;o desanime, voc&#234; consegue, acreditamos em voc&#234;!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
