@@ -1,4 +1,4 @@
-# BOOTCAMP SPREAD FULLSTACK DEVELOPER
+# BOOTCAMP SPREAD FULLSTACK DEVELOPER - DIO
 
 > Todos os arquivos contidos neste repositório foram gerados do zero durante este bootcamp, o qual dei início no dia 26/04/2022 durante os meus horários livres no contraturno da universidade de Sistemas de Informação. Até então não tinha quaisquer conhecimentos prévios sobre nenhum desses temas abordados.
 
